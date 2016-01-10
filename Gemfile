@@ -31,7 +31,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-
+gem "paperclip", "4.3.2"
 
 group :development, :test do
   gem 'rspec-rails'
@@ -39,6 +39,7 @@ end
 
 gem 'capybara'
 
+gem 'factory_girl_rails'
 
 
 group :development, :test do
